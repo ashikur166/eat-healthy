@@ -6,6 +6,12 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
+h1, h2, h3,h4,h5,h6 {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
 
 /* header section start */
 
@@ -82,7 +88,7 @@ body {
     text-align: left;
     padding-top:50px
 }
-.about-text h1 {
+.about-text h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     line-height: 54px;
@@ -97,3 +103,87 @@ body {
     padding-bottom: 40px;
 }
 /* About part */
+
+/* Recipe Section */
+#recipe-section {
+    background: #E5E5E5;
+}
+
+.recipe-head {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 40px;
+}
+.recipe-head h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    line-height: 43.88px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+.recipe-head p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 24.55px;
+    font-weight: 300;
+    padding : 0 210px;
+    
+}
+.recipe-middle{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 90px;
+
+}
+.box-modle {
+    width: 40%;
+    margin: 0 auto;
+    margin-left: 2%;
+    border: 1px 1px white;
+    text-align: center;
+    background: white;
+    border-radius: 30px;
+    padding: 20px;
+}
+.box-modle img {
+  width : 500px;
+  height : auto;
+  
+}
+.recipe-middle h3 {
+    padding:10px 0;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 28px;
+}
+.recipe-middle p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    margin-left: 20px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+}
+.recipe-footer {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
+    border: 1px solid white;
+    background: white;
+    padding: 50px 95px;
+    border-radius: 20px;
+}
+.recipe-footer h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 900;
+    text-align: left;
+}
+
+
+
+/* Recipe Section */
