@@ -11,7 +11,8 @@ body {
 
 #header-section {
     display: flex;
-  
+    overflow: hidden;
+    padding-bottom: 30px;
    
 }
 .header-text {
@@ -61,3 +62,38 @@ body {
     border-radius: 40px;
 }
 /* header section End */
+
+/* About part */
+#about-section{
+    display: flex;
+    padding-top: 80px;
+    background-image: url("images/about-bg.png");
+}
+.about-img {
+    width: 40%;
+    margin: 0 auto;
+}
+.about-img img {
+    width: 345px;
+    height: auto;
+}
+.about-text {
+    width: 40%;
+    text-align: left;
+    padding-top:50px
+}
+.about-text h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    line-height: 54px;
+}
+.about-text p {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    padding-right: 100px;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+/* About part */
